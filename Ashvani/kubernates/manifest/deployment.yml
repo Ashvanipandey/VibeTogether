@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: todo
-          image: myacr.azurecr.io/todo-add-tasks-api:v1
+          image: acrlnp.azurecr.io/todo-add-tasks-api:v1
           ports:
             - containerPort: 80
 
